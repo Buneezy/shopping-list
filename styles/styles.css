@@ -1,0 +1,137 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+* {
+  transition: all 0.1s ease-in;
+}
+.header {
+  width: 100%;
+}
+
+.header-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: grid;
+  place-items: center;
+  color: #ff8984;
+  padding-top: 19px;
+  padding-bottom: 4px;
+}
+#text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  display: grid;
+  place-items: center;
+
+  color: #ff8984;
+}
+.container {
+  background-color: #4a4f56;
+  box-shadow: 0 0 0 100vmax #4a4f56;
+  clip-path: inset(0 -100vmax);
+  height: 82px;
+}
+.main-container {
+  background-color: #3b3f45;
+  width: 534px;
+  box-shadow: 0 0 0 100vmax #3b3f45;
+  clip-path: inset(0 -100vmax);
+  height: 797px;
+}
+.checkbox-wrapper {
+  width: 534px;
+  height: 45px;
+  background: #88839e;
+}
+.checkbox-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.second-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 21px;
+  color: #ffffff;
+  height: 16px;
+}
+
+
+#cbox:checked ~ label {
+  text-decoration: line-through;
+}
+#cbox-first:checked ~ label {
+  text-decoration: line-through;
+}
+#cbox-second:checked ~ label {
+  text-decoration: line-through;
+}
+#cbox-third:checked ~ label {
+  text-decoration: line-through;
+}
+#cbox-fourth:checked ~ label {
+  text-decoration: line-through;
+}
+#cbox-fifth:checked ~ label {
+  text-decoration: line-through;
+}
+
+.checkbox-wrapper:hover {
+  outline: 0px solid transparent;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: #625e77;
+}
+.second-text::after {
+  content: ")";
+}
+.second-text::before {
+  content: "(";
+}
+.checkbox-wrapper:nth-child(-2n + 6) {
+  background-color: #7a7593;
+}
+
+form {
+  padding-top: 20px;
+}
+.btn {
+  width: 534px;
+  height: 45px;
+  border: none;
+
+  background: #4a4f56;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #ff8984;
+}
+footer {
+  padding-top: 45px;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
