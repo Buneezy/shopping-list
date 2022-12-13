@@ -11,7 +11,6 @@ body {
 .header {
   width: 100%;
 }
-
 .header-text {
   font-family: "Roboto";
   font-style: normal;
@@ -30,10 +29,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
   display: grid;
   place-items: center;
-
   color: #ff8984;
 }
 .container {
@@ -47,7 +44,7 @@ body {
   width: 534px;
   box-shadow: 0 0 0 100vmax #3b3f45;
   clip-path: inset(0 -100vmax);
-  height: 849px;
+  height: 1500px;
 }
 .checkbox-wrapper {
   width: 534px;
@@ -71,7 +68,6 @@ body {
   color: #ffffff;
   height: 16px;
 }
-
 
 #cbox:checked ~ label {
   text-decoration: line-through;
@@ -117,7 +113,6 @@ form {
   width: 534px;
   height: 45px;
   border: none;
-
   background: #4a4f56;
   font-family: "Roboto";
   font-style: normal;
